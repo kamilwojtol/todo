@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+
+<!-- Header-->
+    <header class="header">
+        <h1 class="header__title">todo.</h1>
+    </header>
+
+    <main class="app">
+<!-- Input -->
+
+    <section class="input">
+        <form class="input__form">
+            <div class="input__box">
+                <div class="input__border">
+                    <input type="text" class="input__text ">
+                    <button class="input__send"><i class="fas fa-arrow-down"></i>
+            </div>
+            </button>
+        </div>
+        </form>
+    </section>
+
+<!-- Todo list -->
+    <section class="todo">
+        <div class="todo__wrapper non-visible">
+        <ul class="todo__list">   
+        </ul>
+    </section>
+</div>
+</main>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
